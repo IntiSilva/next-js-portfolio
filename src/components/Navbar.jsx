@@ -251,7 +251,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <a href="mailto:inti.t.silva@gmail.com?">
+                <a href="mailto:inti.t.silva@gmail.com">
                     <div className="rounded-full bg-[#333333] shadow-lg shadow-[#001011] text-emerald-400 p-3 cursor-pointer focus:scale-105 ease-in duration-300">
                       <SiGmail />
                     </div>
