@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../../node_modules/flag-icons/css/flag-icons.min.css";
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@layer base {
+  body {
+    @apply bg-[#141414] text-zinc-400 tracking-wide font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  button {
+    @apply text-zinc-800 shadow-xl shadow-[#001011]/70 rounded-xl uppercase bg-gradient-to-r from-emerald-300/75 to-emerald-800 focus:scale-90 ease-in duration-300;
+  }
+
+  .estilo-secciones-navbar {
+    @apply h-[18px]
+                text-sm
+                font-nav
+                uppercase
+                relative
+                cursor-pointer
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-2
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-1
+                before:rounded-full
+                before:opacity-0
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-emerald-400
+                before:via-teal-800
+                before:to-emerald-500
+                hover:before:w-full
+                hover:before:opacity-100;
+  }
+
+  .logo-container {
+    width: 75px;
+    height: 75px;
+  }
+
+  .logo-container-shadow {
+    @apply rounded-full shadow-sm hover:shadow-xl shadow-emerald-500/70 ease-in duration-300;
+  }
+
+  .logo-container-mobil {
+    width: 75px;
+    height: 70px;
+  }
+
+  .title-style {
+    @apply uppercase text-xl tracking-widest text-emerald-700 font-nav;
+  }
+}
