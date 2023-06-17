@@ -192,7 +192,7 @@ const Navbar = () => {
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
                 >
-                  Sobre mi
+                  {translations.common.Nt1}
                 </li>
               </Link>
               <Link href="#skills">
@@ -200,7 +200,7 @@ const Navbar = () => {
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
                 >
-                  Habilidades
+                  {translations.common.Nt2}
                 </li>
               </Link>
               <Link href="#projects">
@@ -208,7 +208,7 @@ const Navbar = () => {
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
                 >
-                  Projectos
+                  {translations.common.Nt3}
                 </li>
               </Link>
               <Link href="/resume">
@@ -216,7 +216,7 @@ const Navbar = () => {
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
                 >
-                  Curriculum
+                  {translations.common.Nt4}
                 </li>
               </Link>
               <Link href="#contact">
@@ -224,13 +224,13 @@ const Navbar = () => {
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
                 >
-                  Contacto
+                  {translations.common.Nt5}
                 </li>
               </Link>
             </ul>
             <div className="pt-10">
               <p className="uppercase tracking-widest text-emerald-700">
-                Hablemos
+              {translations.common.Nsubt2}
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
