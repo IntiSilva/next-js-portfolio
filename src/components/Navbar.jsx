@@ -29,7 +29,7 @@ const Navbar = () => {
   const translations = language === "es" ? esTranslations : enTranslations;
 
   useEffect(() => {
-    if (pathname === "/wallet") {
+    if (pathname === "/wallet" || pathname === "/rsElectric") {
       setNavBg("rgba(0, 0, 0, 0.4)");
       setLinkColor("#C9CCCD");
     } else {
@@ -75,7 +75,7 @@ const Navbar = () => {
     <div
       style={{ backgroundColor: `${navBg}` }}
       className={
-        pathname === "/wallet"
+        pathname === "/wallet" || pathname === "/rsElectric"
           ? hidden
             ? "fixed w-full h-20 z-[100] opacity-0 invisible transition-opacity duration-300"
             : "fixed w-full h-20 z-[100] transition-opacity duration-300"

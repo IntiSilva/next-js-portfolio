@@ -2,6 +2,7 @@
 
 import walletImg from "../../public/assets/projects/wallet.png";
 import realStateImg from "../../public/assets/projects/realstate.png";
+import rselectricImg from "../../public/assets/projects/rselectricllc.png";
 import ProjectItem from "./ProjectItem";
 import ProjectItemUnderDevelopment from "./ProjectItemUnderDevelopment";
 import { useContext } from "react";
@@ -26,6 +27,12 @@ const Projects = () => {
             backgroundImg={walletImg}
             projectUrl="/wallet"
             tech={translations.common.Pproject1Subt}
+          />
+          <ProjectItem
+            title={translations.common.Pproject3T}
+            backgroundImg={rselectricImg}
+            projectUrl="/rsElectric"
+            tech={translations.common.Pproject3Subt}
           />
           <ProjectItemUnderDevelopment
             title={translations.common.Pproject2T}

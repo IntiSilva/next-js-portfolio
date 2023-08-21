@@ -17,6 +17,8 @@
     "Pproject1Subt": "ReactJS, Web3.JS",
     "Pproject2T": "Real-State Page",
     "Pproject2Subt": "MERN Stack",
+    "Pproject3T": "RS Electric LLC.",
+    "Pproject3Subt": "Wordpress",
     "PprojectB": "More Info",
     "PprojectB2": "Under Development",
     "Ct1": "Contact",
@@ -66,6 +68,14 @@
     "t2": "General Description",
     "p2": "This app was created with React, it uses Metamask to sign transactions, Ganache as blockchain, Truffle as compiler for contracts and Babel for translating react (since '.js' files were used). The wallet allows you to make and receive transactions of an ERC20 token which I built, called USDTM (USDT Mock)  a token that has the same decimals as the USDT.",
     "b": "Code",
+    "p3": "Tech",
+    "p4": "Back"
+  },
+  "rsElectric": {
+    "p1": "Project",
+    "t2": "General Description",
+    "p2": "Corporate website for the company 'RS Electric LLC.' in Las Vegas developed using Wordpress and 'Builty' theme as design base, this theme was highly customized to meet the client needs. The site has a firewall, security against malware, automatic backups, Cloudflare's Turnstile to prevent spam, google analytics, a base for the implementation of SEO and email configuration with automatic response.",
+    "b": "Website",
     "p3": "Tech",
     "p4": "Back"
   }
