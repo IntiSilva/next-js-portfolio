@@ -15,6 +15,7 @@ import Express from "../../public/assets/skills/expressJS.png";
 import Node from "../../public/assets/skills/node.png";
 import Wordpress from "../../public/assets/skills/wordpress.png";
 import Framermotion from "../../public/assets/skills/framermotion.png";
+import Mongoose from "../../public/assets/skills/mongoose.png";
 import { useContext } from "react";
 import { LanguageContext } from "./LanguageContext";
 import esTranslations from "../../locales/es/es.json";
@@ -130,6 +131,16 @@ const Skills = () => {
               </div>
               <div className="text-emerald-400 flex flex-col items-center justify-center">
                 <h3>MongoDB</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-[#333333] shadow-xl shadow-[#001011] rounded-2xl hover:scale-105 ease-in duration-300 flex items-center">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Mongoose} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="text-emerald-400 flex flex-col items-center justify-center">
+                <h3>Mongoose</h3>
               </div>
             </div>
           </div>
