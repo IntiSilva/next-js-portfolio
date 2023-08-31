@@ -147,16 +147,6 @@ const Skills = () => {
           <div className="p-6 bg-[#333333] shadow-xl shadow-[#001011] rounded-2xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Mongoose} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="text-emerald-400 flex flex-col items-center justify-center">
-                <h3>Mongoose</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 bg-[#333333] shadow-xl shadow-[#001011] rounded-2xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
                 <Image src={Node} width="64px" height="64px" alt="/" />
               </div>
               <div className="text-emerald-400 flex flex-col items-center justify-center">
