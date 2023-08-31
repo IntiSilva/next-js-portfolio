@@ -60,9 +60,11 @@ const resume = () => {
           </h5>
           <p className="py-2 break-words">
             <span className="font-bold">{translations.resume.s4}</span>
-            <span className="px-2">|</span>
-            {translations.resume.s5}
-            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>{translations.resume.s5}
+            <span className="px-2">|</span>{translations.resume.s6}
+            <span className="px-2">|</span>{translations.resume.s7}
+            <span className="px-2">|</span>REST APIs
+            <span className="px-2">|</span>HTML
             <span className="px-2">|</span>CSS
             <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>React
@@ -70,21 +72,27 @@ const resume = () => {
             <span className="px-2">|</span>Web3 JS
             <span className="px-2">|</span>Express
             <span className="px-2">|</span>MongoDB
+            <span className="px-2">|</span>Mongoose
             <span className="px-2">|</span>Solidity
             <span className="px-2">|</span>Figma
             <span className="px-2">|</span>Tailwind
             <span className="px-2">|</span>Bootstrap
+            <span className="px-2">|</span>Framer Motion
+            <span className="px-2">|</span>Wordpress
+            <span className="px-2">|</span>Elementor
+            <span className="px-2">|</span>Yoast SEO
+            <span className="px-2">|</span>Contact Form 7
+            <span className="px-2">|</span>Updraft Plus
             <span className="px-2">|</span>Adobe Illustrator
             <span className="px-2">|</span>Adobe Photoshop
             <span className="px-2">|</span>Notion
-            <span className="px-2">|</span>
-            {translations.resume.s6}
+            <span className="px-2">|</span>{translations.resume.s8}
             <span className="px-2">|</span>Visual Basics
           </p>
           <p className="py-2">
-            <span className="font-bold">{translations.resume.s7}</span>
-            <span className="px-2">|</span> {translations.resume.s8}
-            <span className="px-2">|</span> {translations.resume.s9}
+            <span className="font-bold">{translations.resume.s9}</span>
+            <span className="px-2">|</span> {translations.resume.s10}
+            <span className="px-2">|</span> {translations.resume.s11}
           </p>
         </div>
 
