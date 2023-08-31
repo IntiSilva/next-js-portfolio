@@ -90,7 +90,7 @@ const Navbar = () => {
         transition={{ type: "spring", stiffness: 120 }}
         className="flex justify-between items-center w-full h-full px-6 2xl:px-16 font-nav"
       >
-        <Link href="#home">
+        <Link href="/#home">
           <Image
             src={NavLogo}
             className="cursor-pointer logo-container logo-container-shadow"
@@ -104,19 +104,19 @@ const Navbar = () => {
           >
             <LanguageSwitcher />
 
-            <Link href="#home" className="ml-10  estilo-secciones-navbar">
+            <Link href="/#home" className="ml-10  estilo-secciones-navbar">
               Home
             </Link>
 
-            <Link href="#about" className="ml-10  estilo-secciones-navbar">
+            <Link href="/#about" className="ml-10  estilo-secciones-navbar">
               {translations.common.Nt1}
             </Link>
 
-            <Link href="#skills" className="ml-10  estilo-secciones-navbar">
+            <Link href="/#skills" className="ml-10  estilo-secciones-navbar">
               {translations.common.Nt2}
             </Link>
 
-            <Link href="#projects" className="ml-10  estilo-secciones-navbar">
+            <Link href="/#projects" className="ml-10  estilo-secciones-navbar">
               {translations.common.Nt3}
             </Link>
 
@@ -124,7 +124,7 @@ const Navbar = () => {
               {translations.common.Nt4}
             </Link>
 
-            <Link href="#contact" className="ml-10  estilo-secciones-navbar">
+            <Link href="/#contact" className="ml-10  estilo-secciones-navbar">
               {translations.common.Nt5}
             </Link>
           </ul>
@@ -161,7 +161,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="#home">
+              <Link href="/#home">
                 <Image src={NavLogo} className="logo-container-mobil" />
               </Link>
               <div
@@ -179,7 +179,7 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase font-nav">
-              <Link href="#home">
+              <Link href="/#home">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
@@ -187,7 +187,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="#about">
+              <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
@@ -195,7 +195,7 @@ const Navbar = () => {
                   {translations.common.Nt1}
                 </li>
               </Link>
-              <Link href="#skills">
+              <Link href="/#skills">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
@@ -203,7 +203,7 @@ const Navbar = () => {
                   {translations.common.Nt2}
                 </li>
               </Link>
-              <Link href="#projects">
+              <Link href="/#projects">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
@@ -219,7 +219,7 @@ const Navbar = () => {
                   {translations.common.Nt4}
                 </li>
               </Link>
-              <Link href="#contact">
+              <Link href="/#contact">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm text-[#FAF0CA]"
