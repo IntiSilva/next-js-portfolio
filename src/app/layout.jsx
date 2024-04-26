@@ -1,11 +1,6 @@
-"use client";
-
 import "./globals.css";
 import localFont from "next/font/local";
-import Navbar from "@/components/Navbar";
-import { AnimatePresence } from "framer-motion";
-import { LanguageProvider } from "@/components/LanguageContext";
-import { usePathname } from "next/navigation";
+import AppWrapper from "@/components/AppWrapper";
 
 const exo_2 = localFont({
   src: [
@@ -26,8 +21,19 @@ const bruno_ace = localFont({
   display: "swap",
 });
 
+export const metadata = {
+  title: {
+    template: "%s | Inti Silva",
+    default: "Inti Silva"
+  },
+  description: "Inti Silva's front-end developer portfolio",
+  keywords: ["Next.js", "Portfolio", "Front-End", "React", "Web Developer"],
+  author: {name: "Inti"},
+  creator: "Inti Silva"
+}
+
 export default function RootLayout({ children }) {
-  const pathname = usePathname()
+
   return (
     // animation isn't complete due to a next.js error with new "app" directory error in layout file which
     // doesn't let {children} have a key prop to succesfully execute exit animation. Will fix when error is patched.
@@ -35,22 +41,12 @@ export default function RootLayout({ children }) {
     //Personal note: use "usePathname" instead of "router" to give the URL to the key prop
     <html className={`${exo_2.variable} ${bruno_ace.variable}`}>
       <head>
-        <title>{
-          pathname === "/wallet"
-            ? 'Wallet | Inti Silva'
-            : (pathname === "/resume"
-                ? 'Resume | Inti Silva'
-                : 'Portfolio | Inti Silva'
-              )
-          }</title>
-        <meta name="description" content="Inti Silva's front-end developer portfolio" />
         <link rel="icon" href="/fav.png" />
       </head>
       <body>
-        <LanguageProvider>
-          <Navbar />
-          <AnimatePresence>{children}</AnimatePresence>
-        </LanguageProvider>
+        <AppWrapper>
+          {children}
+        </AppWrapper>
       </body>
     </html>
   );

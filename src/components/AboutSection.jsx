@@ -3,14 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "../../public/assets/about.jpg";
-import { useContext } from "react";
-import { LanguageContext } from "./LanguageContext";
-import esTranslations from "../../locales/es/es.json";
-import enTranslations from "../../locales/en/en.json";
+import useLanguage from "@/hooks/useLanguage";
 
-const About = () => {
-  const { language } = useContext(LanguageContext);
-  const translations = language === "es" ? esTranslations : enTranslations;
+const AboutSection = () => {
+  const { translations } = useLanguage()
 
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -40,4 +36,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

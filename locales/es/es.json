@@ -2,23 +2,18 @@
   "common": {
     "Mt1": "¡BIENVENIDO!",
     "Mt2": "Soy",
-    "Mt3": "Desarrollador web front-end",
+    "Mt3": "Desarrollador front-end",
     "Mp": "Me apasiona construir experiencias web cautivadoras y funcionales. Mi enfoque se centra en encontrar soluciones creativas a través del desarrollo front-end.",
     "At": "Sobre mi",
     "At2": "Quien soy",
-    "Ap1": "Soy un desarrollador con un enfoque principal en Front-End, adquiriendo experiencia en Back-End a través de un proyecto personal. Mi especialidad es el desarrollo de interfaces utilizando HTML, diversos frameworks de CSS y JavaScript, y herramientas como Figma para realizar el maquetado de diseños web de manera eficiente. Disfruto dominar nuevos lenguajes y tecnologias, siempre busco aprender y planificar la solución más eficiente",
-    "Ap2": "Mi viaje en el Front-End comenzó en 2021, cuando decidí dejar mi trabajo en telecomunicaciones para dedicarme al desarrollo web. A través de un curso de JavaScript, adquirí una sólida base en desarrollo web y culminé con un proyecto final emocionante: una E-Wallet basada en React.js y Web3.js. Desde entonces, he estado expandiendo mis conocimientos y actualmente trabajo en un proyecto personal, en desarrollo, donde combino mis habilidades en Front-End y Back-End para crear soluciones innovadoras.",
+    "Ap1": "Soy un desarrollador especializado en Front-end con competencias en Full Stack. Mi área de especialización radica en el desarrollo de interfaces web y funcionalidades diversas, empleando tecnologías como Next.js, React.js, y varios frameworks de CSS para estilos y animaciones. Utilizo herramientas de diseño como Figma y Adobe XD para maquetar diseños web de manera eficiente. Mi enfoque constante es dominar nuevos lenguajes y tecnologías, con un compromiso hacia el aprendizaje y la implementación de soluciones óptimas.",
+    "Ap2": "Inicié mi carrera en el Front-End en 2021, comenzando con un curso intensivo de JavaScript que me proporcionó una base sólida en desarrollo web y culminó con el desarrollo de un proyecto final: una E-Wallet que integra React.js y Web3.js. Desde entonces, he participado en varios proyectos freelance y continuado desarrollando proyectos personales para expandir mis conocimientos técnicos. Poseo la experiencia y habilidades necesarias para trabajar eficazmente en entornos de Front-End, Back-End, y Full Stack.",
     "Asubt": "Observa de cerca mis proyectos más recientes",
     "St1": "Habilidades",
     "St2": "Dominio destacado",
-    "Pt1": "Projectos",
+    "Pt1": "Proyectos",
     "Pt2": "Lo que construí",
-    "Pproject1T": "Eth-Wallet",
-    "Pproject1Subt": "ReactJS, Web3.JS",
-    "Pproject2T": "Pagina Inmobiliaria",
-    "Pproject2Subt": "MERN Stack",
-    "Pproject3T": "RS Electric LLC.",
-    "Pproject3Subt": "Wordpress",
+    "Pbutton": "Ve todos mis proyectos",
     "PprojectB": "Mas Info",
     "PprojectB2": "En Desarrollo",
     "Ct1": "Contacto",
@@ -36,11 +31,19 @@
     "Cb": "Enviar mensaje",
     "Nt1": "Sobre mi",
     "Nt2": "Habilidades",
-    "Nt3": "Projectos",
+    "Nt3": "Proyectos",
     "Nt4": "Curriculum",
     "Nt5": "Contacto",
     "Nsubt": "Construyamos juntos",
-    "Nsubt2": "Hablemos"
+    "Nsubt2": "Hablemos",
+
+    "ProjectPageP1": "Proyecto",
+    "ProjectPageT1": "Descripción General",
+    "ProjectPageP2": "Tecnologias",
+    "ProjectPageP3": "Atras",
+    "ProjectPageB": "Codigo",
+
+    "Projects": "Todos mis proyectos"
   },
   "resume": {
     "t1": "Curriculum",
@@ -50,35 +53,93 @@
     "p2": "Versatil, innovador y organizado desarrollador web con alto sentido de responsabilidad y adaptamiento a distintos ambientes de trabajo en busca de nuevos desafios. Variados conocimientos de front-end, back-end basico y marketing digital. Habilidades de organizamiento a traves de Notion y colaboración en equipo.",
     "s3": "Habilidades",
     "s4": "Habilidades Técnicas",
-    "s5": "Desarrollo Web Front-End",
-    "s6":"Diseño Reactivo",
-    "s7":"Sistema CRUD",
+    "s5": "Desarrollo Web FullStack",
+    "s6":"Diseño Responsivo y Reactivo",
+    "s7":"Sistemas CRUD",
     "s8": "Paquete Office",
     "s9": "Idiomas",
     "s10": "Ingles avanzado con First Certificate",
     "s11": "Español Nativo",
+    "s12": "Diseño y Desarrollo Mobile-First",
     "subT1": "Experiencia Personal",
     "p3": "Desarrollo de Proyecto final E-Wallet",
     "l1": "Creación de una billetera con React que utiliza Metamask para firmar transacciones, Ganache como blockchain, un token ERC20 simulado como moneda, Truffle como compilador para los contratos y Babel por traducir react (ya que se usaron archivos )",
     "l2": "Creación de un token ERC20 con cambio de decimales.",
     "subT2": "Otras Experiencias Profesionales",
+    "subT3": "Experiencia",
     "p4": "Tecnico de Telecomunicaciones",
-    "l3": "Calibración y reparación de dispositivos activos y pasivos de la empresa Telecentro."
+    "l3": "Calibración y reparación de dispositivos activos y pasivos de la empresa Telecentro.",
+    "rselectric1": "Sitio web corporativo con Wordpress",
+    "rselectric2": "Este proyecto fue desarrollado utilizando Wordpress y un tema del mismo como base de diseño y luego fue modificado a gusto del cliente.",
+    "rselectric3": "Cuenta con varias funcionalidades y seguridad como proteccion anti-malware, algunas implementaciones de SEO, emails automaticos y prevencion de spam.",
+    "ots1": "Sitio web artistico | corporativo con Next.js 14",
+    "ots2": "Este trabajo cuenta con varias funcionalidades e implementaciones como tambien poligonos de diseño complejos que calculan su forma automaticamente.",
+    "ots3": "Implementacion de Google Maps JavaScript API para la creación de un mapa overlay superpuesto al Reino Unido, este mapa posee marcadores y popups personalizados.",
+    "ots4": "Integracion con Howler.js para manejar el sonido y crear un reproductor de audio con funcionalides completas (Play/Pause, Next, Previous, Shuffle, Repeat y Repeat one).",
+    "ots5": "Hace uso de las ultimas funcionalidades y optimizaciones de Next.js como server components, placeholders de imagenes, dynamic imports, etc. para lograr una carga rapida y un funcionamiento eficaz a pesar de su gran cantidad de contenido e interacciones."
   },
   "wallet": {
-    "p1": "Projecto",
-    "t2": "Descripción General",
-    "p2": "Esta app fue creada con React, utiliza Metamask para firmar transacciones, Ganache como blockchain, Truffle como compilador para los contratos y Babel por traducir react (ya que se usaron archivos .js). La billetera permite hacer y recibir transacciones de un token ERC20 el cual construi, llamado USDTM (USDT Mock) que posee los mismos decimales que el USDT.",
-    "b": "Codigo",
-    "p3": "Tecnologias",
-    "p4": "Atras"
+    "paragraph": "Esta app fue creada con React, utiliza Metamask para firmar transacciones, Ganache como blockchain, Truffle como compilador para los contratos y Babel por traducir react (ya que se usaron archivos .js). La billetera permite hacer y recibir transacciones de un token ERC20 el cual construi, llamado USDTM (USDT Mock) que posee los mismos decimales que el USDT"
+
   },
-  "rsElectric": {
-    "p1": "Projecto",
-    "t2": "Descripción General",
-    "p2": "Sitio web corporativo para la empresa 'RS Electric LLC.' en Las Vegas desarrollado utilizando Wordpress y el tema 'Builty' como base de diseño, este tema fue altamente personalizado para satisfacer las necesidades del cliente. El sitio cuenta con firewall y seguridad contra malware, backups automaticos, Turnstile de Cloudflare para prevenir spam, google analitycs, una base para la implementación de SEO y configuración de mails con respuesta automatica",
-    "b": "Sitio Web",
-    "p3": "Tecnologias",
-    "p4": "Atras"
-  }
+  "rs-electric": {
+    "paragraph": "Sitio web corporativo para la empresa 'RS Electric LLC.' en Las Vegas desarrollado utilizando Wordpress y el tema 'Builty' como base de diseño, este tema fue altamente personalizado para satisfacer las necesidades del cliente. El sitio cuenta con firewall y seguridad contra malware, backups automaticos, Turnstile de Cloudflare para prevenir spam, google analitycs, una base para la implementación de SEO y configuración de mails con respuesta automatica"
+
+  },
+  "real-state": {
+      "title": "Website Inmobiliarias"
+
+  },
+  "portfolio":{
+    "title": "Portafolio",
+    "paragraph": "Portafolio diseñado y creado con Next.js 13.4.1, integrado con Framer Motion y Tailwind CSS, contiene display dinamico de proyectos , animaciones, contexto y formulario, conectado a travez de Github con Vercel"
+  },
+  "old-time-sailors":{
+    "paragraph": "Sitio web artistico | corporativo para Old Time Sailors LTD. destaca su integracion con Google Maps API para el mapa de sus tickets, Howler para su reproductor de musica personalizado y estilos complejos. Posee Next.js 14, Strapi, PostgreSQL para su base de functionamiento"
+  },
+  "kiosk":{
+    "title": "Cafe",
+    "paragraph": "Proyecto con varios articulos de cafeteria que utiliza SWR para enviar actualizaciones de las ordenes pendientes a la cocina, utiliza Prisma para manejar la base de datos"
+  },
+  "guitar-la":{
+    "paragraph": "Tienda de guitarras con blogs y curso, integrada con un carrito de compra que utiliza un Local Storage. Creada con Next.js y una variante con Remix (el link de remix esta en Github)"
+  },
+  "uptask":{
+    "paragraph": "Red de usuraios y proyectos con la posibilidad de añadir colaborares a tareas y proyectos. Cuenta con login, signup, autorizaciones, encriptamiento JWT, email de verificacion/confirmacion y socket.io para actualizaciones en tiempo real. Creada con el stack MERN en conjunto con Mongoose"
+  },
+  "crypto-quoter":{
+    "title": "Cotizador de Cryptos",
+    "paragraph": "Esta app utiliza una API para arrojar el valor de la cryptomoneda seleccionada en el valor de la divisa seleccionada proveer otros datos"
+  },
+  "budget-control":{
+    "title": "Control de Gastos",
+    "paragraph": "App con simple y efectivo sistema para controlar gastos propios con distintas categorias y animaciones"
+},
+"drinks-finder":{
+  "title": "Buscador de Bebidas y Cocktails",
+  "paragraph": "Pagina de busqueda de distintos tipos de bebidas y sus recetas a haciendo uso de una API de bebidas y cocktails, The Cocktails DB. Vite, React y Bootstrap para creacion y estilos, Axios para llamadas a la API"
+},
+"crm": {
+  "paragraph": "CRM para manejo de clientes y operaciones CRUD"
+},
+"news-api":{
+  "title": "Noticias API",
+  "paragraph": "Aplicacion que utiliza News Catcher API para traer las ultimas noticias ademas de un filtro de categorias"
+},
+"react-redux-crud":{
+  "title": "React-Redux Operaciones CRUD",
+  "paragraph": "Proyecto realizado para aprender operaciones CRUD utilizando Redux haciendo uso de Actions, Reducers y Types. Sweet Alert para las alertas."
+},
+"car-insurance-quote-calculator": {
+  "title": "Calculadora de Seguros Automovilisticos",
+  "paragraph": "Simple calculadora de seguros que utiliza un precio base establecido para calcular los precios del seguro dependiendo de las caracteristicas del automovil."
+},
+"appointments": {
+  "title": "Citas",
+  "paragraph": "Agenda de citas de pacientes para una Clinica Veterinaria"
+},
+"weather-app": {
+  "title": "App del Clima",
+  "paragraph": "Este proyecto permite averiguar el clima en tiempo real de las ciudades de 6 paises diferentes a travez de una API"
+}
 }

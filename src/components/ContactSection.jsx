@@ -7,14 +7,10 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../../public/assets/contact.jpg";
-import { useContext } from "react";
-import { LanguageContext } from "./LanguageContext";
-import esTranslations from "../../locales/es/es.json";
-import enTranslations from "../../locales/en/en.json";
+import useLanguage from "@/hooks/useLanguage";
 
-const Contact = () => {
-  const { language } = useContext(LanguageContext);
-  const translations = language === "es" ? esTranslations : enTranslations;
+const ContactSection = () => {
+  const { translations } = useLanguage()
 
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -159,4 +155,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactSection;

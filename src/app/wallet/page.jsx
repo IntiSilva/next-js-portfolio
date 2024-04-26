@@ -35,23 +35,23 @@ const wallet = () => {
 
         <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
           <div className="col-span-4">
-            <p>{translations.wallet.p1}</p>
-            <h2 className="pb-4">{translations.wallet.t2}</h2>
-            <p> {translations.wallet.p2}</p>
+            <p>ab</p>
+            <h2 className="pb-4">a</h2>
+            <p> a</p>
             <a
               href="https://github.com/IntiSilva/Eth-walllet-master-2.0"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">
-                {translations.wallet.b}
+                a
               </button>
             </a>
           </div>
           <div className="bg-[#1F1F1F] col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl py-4">
             <div className="p-2">
               <p className="text-center text-zinc-300 font-bold pb-2">
-                {translations.wallet.p3}
+                a
               </p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="py-2 flex items-center">
@@ -74,7 +74,7 @@ const wallet = () => {
           </div>
           <Link href="#projects">
             <p className="text-emerald-800 underline cursor-pointer">
-              {translations.wallet.p4}
+              a
             </p>
           </Link>
         </div>

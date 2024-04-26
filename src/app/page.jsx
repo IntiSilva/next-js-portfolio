@@ -1,21 +1,25 @@
-"use client";
 
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Main from "../components/Main";
-import Projects from "../components/Projects";
-import Skills from "../components/Skills";
+export const metadata = {
+  title: "Portfolio | Inti Silva"
+
+}
+
+import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
+import MainSection from "../components/MainSection";
+import ProjectsSection from "../components/ProjectsSection";
+import SkillsSection from "../components/SkillsSection";
 import Transitions from "@/components/Transitions";
 
 export default function Home() {
   return (
     <>
       <Transitions />
-      <Main />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <MainSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
     </>
   );
 }

@@ -4,14 +4,11 @@ import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { useContext } from "react";
-import { LanguageContext } from "./LanguageContext";
-import esTranslations from "../../locales/es/es.json";
-import enTranslations from "../../locales/en/en.json";
+import useLanguage from "@/hooks/useLanguage";
 
-const Main = () => {
-  const { language } = useContext(LanguageContext);
-  const translations = language === "es" ? esTranslations : enTranslations;
+const MainSection = () => {
+
+  const { translations } = useLanguage()
 
   return (
     <div id="home" className="w-full h-screen 3md:text-center">
@@ -69,4 +66,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainSection;

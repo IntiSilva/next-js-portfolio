@@ -6,19 +6,14 @@
     "Mp": "I'm passionate about building functional and engaging web experiences. My approach is to find creative solutions through front-end development",
     "At": "About me",
     "At2": "Who I am",
-    "Ap1": "I'm a developer with a focus on Front-End, also adquiering Back-End experience through a personal project. I specialize in develpoing interfaces using HTML, various CSS and JavaScript frameworks, and tools like Figma to efficiently layout web designs. I enjoy mastering new languages and technologies, I always seek to learn and plan the most efficent solution.",
-    "Ap2": "My journey in the Front-end world began in 2021, when I decided to quit my job in telecommunications to pursue web development. Through a JavaScript course, I gained a solid foundation in web development, culminating in an exciting project: an E-Wallet based on React.js and Web3.js. Since then, I have been expanding my knowledge and I am currently working on a personal project, still in development, where I combine my Front-End and Back-End skills to create an innovative solution.",
+    "Ap1": "I am a developer specializing in Front-end with Full Stack capabilities. My area of specialization lies in the development of web interfaces and various functionalities, using technologies such as Next.js, React.js, and several CSS frameworks for styling and animations. I use design tools like Figma and Adobe XD to efficiently layout web designs. My constant focus is mastering new languages and technologies, with a commitment to learning and implementing optimal solutions.",
+    "Ap2": "I began my career in Front-end in 2021, starting with an intensive JavaScript course that provided me with a solid foundation in web development and culminated in the development of a final project: an E-Wallet integrating React.js and Web3.js. Since then, I have engaged in various freelance projects and continued developing personal projects to expand my technical knowledge. I possess the experience and skills necessary to work effectively in Front-End, Back-End, and Full Stack environments.",
     "Asubt": "Take a close look at my most recent projects",
     "St1": "Skills",
     "St2": "Signature Skills",
     "Pt1": "Projects",
     "Pt2": "What I've built",
-    "Pproject1T": "Eth-Wallet",
-    "Pproject1Subt": "ReactJS, Web3.JS",
-    "Pproject2T": "Real-State Page",
-    "Pproject2Subt": "MERN Stack",
-    "Pproject3T": "RS Electric LLC.",
-    "Pproject3Subt": "Wordpress",
+    "Pbutton": "Check all my projects",
     "PprojectB": "More Info",
     "PprojectB2": "Under Development",
     "Ct1": "Contact",
@@ -40,7 +35,15 @@
     "Nt4": "Resume",
     "Nt5": "Contact",
     "Nsubt": "Let's build together",
-    "Nsubt2": "Contact me"
+    "Nsubt2": "Contact me",
+
+    "ProjectPageP1": "Project",
+    "ProjectPageT1": "General Description",
+    "ProjectPageP2": "Tech",
+    "ProjectPageP3": "Back",
+    "ProjectPageB": "Code",
+
+    "Projects": "All my projects"
   },
   "resume": {
     "t1": "Resume",
@@ -50,35 +53,81 @@
     "p2": "Versatile, innovative and organized web developer with a high sense of responsibility and adaptation to different work environments in search of new challenges. Varied knowledge of front-end, basic back-end and digital marketing. Organization skills through Notion and team collaboration.",
     "s3": "Skills",
     "s4": "Technical Skills",
-    "s5": "Front-End Web Development",
-    "s6":"Responsive Design",
-    "s7":"CRUD system",
+    "s5": "FullStack Web Development",
+    "s6":"Responsive & Reactive Design",
+    "s7":"CRUD systems",
     "s8": "Office Package",
     "s9": "Languages",
     "s10": "Advanced English with First Certificate",
     "s11": "Native Spanish",
+    "s12": "Mobile-First Design & Development",
     "subT1": "Personal Experience",
     "p3": "Final project development E-Wallet",
     "l1": "Build process of a e-wallet with React that uses Metamask to sign transactions, Ganache as blockchain, a simulated ERC20 token as currency, Truffle as compiler for contracts and Babel for translating react (since '.js' files were used)",
     "l2": "Creation of an ERC20 token with changed decimals",
     "subT2": "Other Professional Experience",
+    "subT3": "Experience",
     "p4": "Telecomunications Technician",
-    "l3": "Calibration and repairing of active and passive devices of Telecentro."
+    "l3": "Calibration and repairing of active and passive devices of Telecentro.",
+    "rselectric1": "Corporate website with Wordpress",
+    "rselectric2": "This project was developed using Wordpress and a theme as the base design, which was then modified to the client's liking.",
+    "rselectric3": "It features several functionalities and security measures such as anti-malware protection, some SEO implementations, automatic emails, and spam prevention.",
+    "ots1": "Artistic | Corporate website with Next.js 14",
+    "ots2": "This work features several functionalities and implementations, as well as complex design polygons that calculate their shape automatically.",
+    "ots3": "Implementation of Google Maps JavaScript API to create an overlay map superimposed on the United Kingdom, this map has custom markers and popups.",
+    "ots4": "Integration with Howler.js to handle sound and create an audio player with complete features (Play/Pause, Next, Previous, Shuffle, Repeat, and Repeat one).",
+    "ots5": "It makes use of the latest features and optimizations of Next.js such as server components, image placeholders, dynamic imports, etc. to achieve fast loading and efficient operation despite its large amount of content and interactions."
+
   },
   "wallet": {
-    "p1": "Project",
-    "t2": "General Description",
-    "p2": "This app was created with React, it uses Metamask to sign transactions, Ganache as blockchain, Truffle as compiler for contracts and Babel for translating react (since '.js' files were used). The wallet allows you to make and receive transactions of an ERC20 token which I built, called USDTM (USDT Mock)  a token that has the same decimals as the USDT.",
-    "b": "Code",
-    "p3": "Tech",
-    "p4": "Back"
+    "paragraph": "This app was created with React, it uses Metamask to sign transactions, Ganache as blockchain, Truffle as compiler for contracts and Babel for translating react (since '.js' files were used). The wallet allows you to make and receive transactions of an ERC20 token which I built, called USDTM (USDT Mock)  a token that has the same decimals as the USDT."
   },
-  "rsElectric": {
-    "p1": "Project",
-    "t2": "General Description",
-    "p2": "Corporate website for the company 'RS Electric LLC.' in Las Vegas developed using Wordpress and 'Builty' theme as design base, this theme was highly customized to meet the client needs. The site has a firewall, security against malware, automatic backups, Cloudflare's Turnstile to prevent spam, google analytics, a base for the implementation of SEO and email configuration with automatic response.",
-    "b": "Website",
-    "p3": "Tech",
-    "p4": "Back"
+  "rs-electric": {
+    "paragraph": "Corporate website for the company 'RS Electric LLC.' in Las Vegas developed using Wordpress and 'Builty' theme as design base, this theme was highly customized to meet the client needs. The site has a firewall, security against malware, automatic backups, Cloudflare's Turnstile to prevent spam, google analytics, a base for the implementation of SEO and email configuration with automatic response."
+  },
+  "real-state": {
+    "title": "Real State Website"
+},
+  "portfolio": {
+    "paragraph": "Portfolio designed and created with Next.js 13.4.1, integrated with Framer Motion and Tailwind CSS, featuring dynamic project display, animations, context, and form, connected through Github with Vercel."
+  },
+  "old-time-sailors": {
+    "paragraph": "Artistic | corporate website for Old Time Sailors LTD., featuring integration with the Google Maps API for ticket mapping, Howler for its custom music player, and complex styles. It uses Next.js 14, Strapi, PostgreSQL for its functionality."
+  },
+  "kiosk": {
+    "paragraph": "Project with various coffee shop items that uses SWR to send updates of pending orders to the kitchen, and Prisma to manage the database."
+  },
+  "guitar-la": {
+    "paragraph": "Guitar store with blogs and courses, integrated with a shopping cart that uses Local Storage. Created with Next.js and a variant with Remix (the remix link is on Github)."
+  },
+  "uptask": {
+    "paragraph": "Network of users and projects with the ability to add collaborators to tasks and projects. Includes login, signup, authorizations, JWT encryption, verification/confirmation email, and socket.io for real-time updates. Created with the MERN stack along with Mongoose."
+  },
+  "crypto-quoter": {
+    "paragraph": "This app uses an API to show the value of the selected cryptocurrency in the selected currency and provides other data."
+  },
+  "budget-control": {
+    "paragraph": "App with a simple and effective system for controlling personal expenses across different categories with animations."
+  },
+  "drinks-finder": {
+    "paragraph": "Website for searching different types of drinks and their recipes using a drinks and cocktails API, , The Cocktails DB. Created with Vite, React, and Bootstrap for styling, Axios for API calls."
+  },
+  "crm": {
+    "paragraph": "CRM for managing clients and CRUD operations."
+  },
+  "news-api": {
+    "paragraph": "Application that uses the News Catcher API to bring the latest news along with a category filter."
+  },
+  "react-redux-crud": {
+    "paragraph": "Project created to learn CRUD operations using Redux, making use of Actions, Reducers, and Types. Sweet Alert for alerts."
+  },
+  "car-insurance-quote-calculator": {
+    "paragraph": "Simple insurance calculator that uses a base price to calculate insurance prices depending on the car's characteristics."
+  },
+  "appointments": {
+    "paragraph": "Patient appointment book for a Veterinary clinic."
+  },
+  "weather-app": {
+    "paragraph": "This project allows checking the real-time weather in cities across six different countries through an API."
   }
 }

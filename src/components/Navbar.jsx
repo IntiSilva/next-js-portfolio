@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect} from "react";
 import { SiGmail } from "react-icons/si";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import NavLogo from "../../public/assets/navLogo.png";
@@ -12,9 +12,7 @@ import "../app/globals.css";
 import { usePathname } from "next/navigation";
 import { motion, useAnimation } from "framer-motion";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { LanguageContext } from "./LanguageContext";
-import esTranslations from "../../locales/es/es.json";
-import enTranslations from "../../locales/en/en.json";
+import useLanguage from "@/hooks/useLanguage";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,11 +23,10 @@ const Navbar = () => {
   const [animationPlayed, setAnimationPlayed] = useState(false);
   const pathname = usePathname();
   const controls = useAnimation();
-  const { language } = useContext(LanguageContext);
-  const translations = language === "es" ? esTranslations : enTranslations;
+  const { translations } = useLanguage()
 
   useEffect(() => {
-    if (pathname === "/wallet" || pathname === "/rsElectric") {
+    if (pathname.startsWith('/projects/')) {
       setNavBg("rgba(0, 0, 0, 0.4)");
       setLinkColor("#C9CCCD");
     } else {
@@ -75,7 +72,7 @@ const Navbar = () => {
     <div
       style={{ backgroundColor: `${navBg}` }}
       className={
-        pathname === "/wallet" || pathname === "/rsElectric"
+        pathname.startsWith('/projects/')
           ? hidden
             ? "fixed w-full h-20 z-[100] opacity-0 invisible transition-opacity duration-300"
             : "fixed w-full h-20 z-[100] transition-opacity duration-300"
