@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../../public/assets/about.jpg";
+import AboutImg from "../../public/assets/headshot.png";
 import useLanguage from "@/hooks/useLanguage";
 
 const AboutSection = () => {
@@ -13,13 +13,13 @@ const AboutSection = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="title-style">{translations.common.At}</p>
-          <h2 className="bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text py-4">
+          <h2 className="px-1 bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text py-4">
             {translations.common.At2}
           </h2>
-          <p className="py-2 text-justify text-zinc-300">
+          <p className="p-2 text-justify text-zinc-300">
             {translations.common.Ap1}
           </p>
-          <p className="py-2 text-justify text-zinc-300">
+          <p className="p-2 text-justify text-zinc-300">
             {translations.common.Ap2}
           </p>
           <Link href="/#projects">

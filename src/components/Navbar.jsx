@@ -91,6 +91,7 @@ const Navbar = () => {
           <Image
             src={NavLogo}
             className="cursor-pointer logo-container logo-container-shadow"
+            alt="Portfolio Logo"
           />
         </Link>
 
@@ -159,7 +160,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/#home">
-                <Image src={NavLogo} className="logo-container-mobil" />
+                <Image src={NavLogo} className="logo-container-mobil" alt="Porfolio Logo"/>
               </Link>
               <div
                 onClick={handleNav}

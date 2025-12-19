@@ -15,14 +15,14 @@ const MainSection = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex items-center ">
         <div>
           <p className="text-sm title-style">{translations.common.Mt1}</p>
-          <h1 className="py-4 text-zinc-300">
+          <h1 className="py-2 text-zinc-300">
             {translations.common.Mt2}{" "}
             <span className="bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text">
               {" "}
               Inti,
             </span>
           </h1>
-          <h1 className="py-2 text-zinc-300">{translations.common.Mt3}</h1>
+          <h1 className="pb-2 text-zinc-300">{translations.common.Mt3}</h1>
 
           <div className="flex flex-row items-center justify-between 3md:flex-col">
             <div className="flex items-center space-x-4 max-w-[330px] m-auto 3md:order-last">

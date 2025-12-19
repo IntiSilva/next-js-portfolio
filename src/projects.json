@@ -1,16 +1,17 @@
-[ 
+[
+  
     {
-      "id": "wallet",
+      "id": "eventify",
       "finished": true,
-      "originalTitle": "Eth-Wallet",
-      "mainTech": "React, Web3 JS, Truffle",
-      "tech": ["React", "Web3 JS", "Truffle", "Ganache", "Javascript"],
-      "backgroundImg" : "/assets/projects/wallet.webp",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/embed/KRY8IZCbAs4",
-      "hasCode": true,
-      "hasWebsite": false,
-      "codeUrl": "https://github.com/IntiSilva/Eth-walllet-master-2.0"
+      "originalTitle": "Eventify",
+      "mainTech": "Next.js, Clerk, Prisma, Shadcn UI, Motion One, Typescript",
+      "tech": ["Next.js", "Clerk", "Prisma", "Typescript", "Shadcn UI", "Motion One", "OGL", "LordIcons", "Tailwind CSS", "SWR", "Neon", "Resend", "Svix", "Zod", "Vitest", "Playwright"],
+      "backgroundImg": "/assets/projects/eventify.webp",
+      "mediaType": "image",
+      "mediaUrl": "/assets/projects/eventify.webp",
+      "hasCode": false,
+      "hasWebsite": true,
+      "websiteUrl": "https://eventifylive.vercel.app/"
     },
     {
       "id": "rs-electric",
@@ -24,6 +25,19 @@
       "hasCode": false,
       "hasWebsite": true,
       "websiteUrl": "https://rselectriclv.com/"
+    },
+    {
+      "id": "old-time-sailors",
+      "finished": true,
+      "originalTitle": "Old Time Sailors",
+      "mainTech": "Next.js, NextUI, Strapi, Google Maps API",
+      "tech": ["Next.js", "NextUI", "Tailwind CSS", "Strapi", "PostgreSQL", "Google Maps API", "Howler","Cloudinary"],
+      "backgroundImg": "/assets/projects/oldtimesailors.webp",
+      "mediaType": "image",
+      "mediaUrl": "/assets/projects/oldtimesailors.webp",
+      "hasCode": false,
+      "hasWebsite": true,
+      "websiteUrl": "https://oldtimesailors.com/"
     },
     {
       "id": "portfolio",
@@ -40,17 +54,17 @@
       "websiteUrl": "https://inti-silva-portfolio.vercel.app/"
     },
     {
-      "id": "old-time-sailors",
+      "id": "wallet",
       "finished": true,
-      "originalTitle": "Old Time Sailors",
-      "mainTech": "Next.js, NextUI, Strapi, Google Maps API",
-      "tech": ["Next.js", "NextUI", "Tailwind CSS", "Strapi", "PostgreSQL", "Google Maps API", "Howler","Cloudinary"],
-      "backgroundImg": "/assets/projects/oldtimesailors.webp",
-      "mediaType": "image",
-      "mediaUrl": "/assets/projects/oldtimesailors.webp",
-      "hasCode": false,
-      "hasWebsite": true,
-      "websiteUrl": "https://oldtimesailors.com/"
+      "originalTitle": "Eth-Wallet",
+      "mainTech": "React, Web3 JS, Truffle",
+      "tech": ["React", "Web3 JS", "Truffle", "Ganache", "Javascript"],
+      "backgroundImg" : "/assets/projects/wallet.webp",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/embed/KRY8IZCbAs4",
+      "hasCode": true,
+      "hasWebsite": false,
+      "codeUrl": "https://github.com/IntiSilva/Eth-walllet-master-2.0"
     },
     {
       "id": "kiosk",
@@ -65,6 +79,20 @@
       "hasWebsite": true,
       "codeUrl": "https://github.com/IntiSilva/kioskapp",
       "websiteUrl": "https://kioskapp-phi.vercel.app/"
+    },
+    {
+      "id": "ts-blog",
+      "finished": true,
+      "originalTitle": "Typescript Blog",
+      "mainTech": "Next.js, Sanity, Tailwind CSS, Typescript",
+      "tech": ["Next.js", "Sanity", "Tailwind CSS", "Typescript"],
+      "backgroundImg": "/assets/projects/ts-blog.webp",
+      "mediaType": "image",
+      "mediaUrl": "/assets/projects/ts-blog.webp",
+      "hasCode": true,
+      "hasWebsite": true,
+      "codeUrl": "https://github.com/IntiSilva/ts-blog",
+      "websiteUrl": "https://ts-blog-beryl.vercel.app/"
     },
     
 {

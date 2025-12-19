@@ -13,15 +13,15 @@ const ProjectsSection = () => {
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-24">
         <p className="title-style">{translations.common.Pt1}</p>
-        <h2 className="bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text py-4">
+        <h2 className="px-1 bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text py-4">
           {translations.common.Pt2}
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            originalTitle="Eth-Wallet"
-            backgroundImg="/assets/projects/wallet.webp"
-            id="wallet"
-            mainTech="React, Web3 JS, Truffle"
+            originalTitle="Eventify"
+            backgroundImg="/assets/projects/eventify.webp"
+            id="eventify"
+            mainTech="Next.js, Clerk, Prisma, Shadcn UI, Motion One"
           />
           <ProjectItem
             originalTitle="RS Electric LLC."
@@ -36,10 +36,10 @@ const ProjectsSection = () => {
             mainTech="Next.js, NextUI, Strapi, Google Maps API"
           />
           <ProjectItem
-            originalTitle="UpTask"
-            backgroundImg="/assets/projects/uptask.webp"
-            id="uptask"
-            mainTech="MERN Stack, HeadlessUI, Socket.io"
+            originalTitle="Eth-Wallet"
+            backgroundImg="/assets/projects/wallet.webp"
+            id="wallet"
+            mainTech="React, Web3 JS, Truffle"
           />
           
         </div>

@@ -2,12 +2,12 @@
   "common": {
     "Mt1": "¡BIENVENIDO!",
     "Mt2": "Soy",
-    "Mt3": "Desarrollador front-end",
-    "Mp": "Me apasiona construir experiencias web cautivadoras y funcionales. Mi enfoque se centra en encontrar soluciones creativas a través del desarrollo front-end.",
+    "Mt3": "Desarrollador Fullstack (frontend-focused)",
+    "Mp": "Desarrollo apps web full-stack con foco en front-end: UI, performance y experiencia mobile-first. Cuando hace falta, también me meto en backend.",
     "At": "Sobre mi",
     "At2": "Quien soy",
-    "Ap1": "Soy un desarrollador especializado en Front-end con competencias en Full Stack. Mi área de especialización radica en el desarrollo de interfaces web y funcionalidades diversas, empleando tecnologías como Next.js, React.js, y varios frameworks de CSS para estilos y animaciones. Utilizo herramientas de diseño como Figma y Adobe XD para maquetar diseños web de manera eficiente. Mi enfoque constante es dominar nuevos lenguajes y tecnologías, con un compromiso hacia el aprendizaje y la implementación de soluciones óptimas.",
-    "Ap2": "Inicié mi carrera en el Front-End en 2021, comenzando con un curso intensivo de JavaScript que me proporcionó una base sólida en desarrollo web y culminó con el desarrollo de un proyecto final: una E-Wallet que integra React.js y Web3.js. Desde entonces, he participado en varios proyectos freelance y continuado desarrollando proyectos personales para expandir mis conocimientos técnicos. Poseo la experiencia y habilidades necesarias para trabajar eficazmente en entornos de Front-End, Back-End, y Full Stack.",
+    "Ap1": "Soy desarrollador full-stack (con foco en front-end) con mentalidad de producto. Me enfoco en construir interfaces cuidadas con animaciones/micro-interacciones bien medidas y una UX mobile-first, manteniendo performance y calidad de código como prioridad. Mi stack principal es Next.js/React + TypeScript.",
+    "Ap2": "Programo desde 2021 y en los últimos años trabajé en proyectos end-to-end: diseño e implementación de UI, definición de flujos y lógica de negocio, integración de APIs, autenticación/autorización y modelado de datos. Me gusta trabajar con tipado estricto, componentes reutilizables y una arquitectura mantenible, respaldada por testing para que los cambios no rompan flujos críticos.",
     "Asubt": "Observa de cerca mis proyectos más recientes",
     "St1": "Habilidades",
     "St2": "Dominio destacado",
@@ -19,8 +19,8 @@
     "Ct1": "Contacto",
     "Ct2": "Conectemos",
 
-    "Csubt": "Desarrollador Front-End",
-    "Cp1": "Estoy disponible para trabajos freelance y posiciones full-time ¡Contáctame y charlemos!",
+    "Csubt": "Desarrollador FullStack | Front-End",
+    "Cp1": "Estoy disponible para posiciones full-time y trabajos freelance ¡Contáctame y charlemos!",
     "Cp2": "Hazme saber tus ideas",
 
     "Cl1": "Nombre",
@@ -47,10 +47,10 @@
   },
   "resume": {
     "t1": "Curriculum",
-    "p1": "Diseño Web",
-    "s1": "Desarrollo Web",
-    "s2": "Bilingüe",
-    "p2": "Versatil, innovador y organizado desarrollador web con alto sentido de responsabilidad y adaptamiento a distintos ambientes de trabajo en busca de nuevos desafios. Variados conocimientos de front-end, back-end basico y marketing digital. Habilidades de organizamiento a traves de Notion y colaboración en equipo.",
+    "p1": "Full-stack (frontend-focused)",
+    "s1": "Mobile-first",
+    "s2": "Bilingüe (ES/EN)",
+    "p2": "Full-stack developer (frontend-focused) con experiencia construyendo aplicaciones web con React/Next.js + TypeScript. Diseño componentes, estado, data fetching y rutas, y extiendo hacia backend cuando corresponde (APIs, auth y persistencia). Priorizo contratos claros entre capas, tipado estricto y un flujo de desarrollo con linting y tests (unit/integration + E2E) para evitar regresiones.",
     "s3": "Habilidades",
     "s4": "Habilidades Técnicas",
     "s5": "Desarrollo Web FullStack",
@@ -58,15 +58,16 @@
     "s7":"Sistemas CRUD",
     "s8": "Paquete Office",
     "s9": "Idiomas",
-    "s10": "Ingles avanzado con First Certificate",
+    "s10": "Ingles B2 con First Certificate",
     "s11": "Español Nativo",
     "s12": "Diseño y Desarrollo Mobile-First",
     "subT1": "Experiencia Personal",
     "p3": "Desarrollo de Proyecto final E-Wallet",
-    "l1": "Creación de una billetera con React que utiliza Metamask para firmar transacciones, Ganache como blockchain, un token ERC20 simulado como moneda, Truffle como compilador para los contratos y Babel por traducir react (ya que se usaron archivos )",
+    "l1": "Creación de una billetera con React que utiliza Metamask para firmar transacciones, Ganache como blockchain, un token ERC20 simulado como moneda, Truffle como compilador para los contratos y Babel para traducir a react (ya que se usaron archivos '.js')",
     "l2": "Creación de un token ERC20 con cambio de decimales.",
     "subT2": "Otras Experiencias Profesionales",
     "subT3": "Experiencia",
+    "subT4": "Proyectos Destacados",
     "p4": "Tecnico de Telecomunicaciones",
     "l3": "Calibración y reparación de dispositivos activos y pasivos de la empresa Telecentro.",
     "rselectric1": "Sitio web corporativo con Wordpress",
@@ -76,7 +77,93 @@
     "ots2": "Este trabajo cuenta con varias funcionalidades e implementaciones como tambien poligonos de diseño complejos que calculan su forma automaticamente.",
     "ots3": "Implementacion de Google Maps JavaScript API para la creación de un mapa overlay superpuesto al Reino Unido, este mapa posee marcadores y popups personalizados.",
     "ots4": "Integracion con Howler.js para manejar el sonido y crear un reproductor de audio con funcionalides completas (Play/Pause, Next, Previous, Shuffle, Repeat y Repeat one).",
-    "ots5": "Hace uso de las ultimas funcionalidades y optimizaciones de Next.js como server components, placeholders de imagenes, dynamic imports, etc. para lograr una carga rapida y un funcionamiento eficaz a pesar de su gran cantidad de contenido e interacciones."
+    "ots5": "Hace uso de las ultimas funcionalidades y optimizaciones de Next.js como server components, placeholders de imagenes, dynamic imports, etc. para lograr una carga rapida y un funcionamiento eficaz a pesar de su gran cantidad de contenido e interacciones.",
+    "selectedProjects": [
+      {
+        "name": "Eventify",
+        "meta": "Proyecto personal",
+        "subtitle": "Plataforma full-stack de eventos (Next.js + TypeScript + Prisma)",
+        "year": "2025",
+        "bullets": [
+          "Experiencias por rol (admin/organizer/user) con auth y permisos.",
+          "CRUD completo, búsqueda/filtros + paginación, RSVP y recordatorios por email.",
+          "UI mobile-first con foco en performance, accesibilidad y micro-interacciones.",
+          "Testing: unit/integration + E2E para evitar regresiones."
+        ]
+      },
+      {
+        "name": "UpTask",
+        "meta": "Proyecto personal",
+        "subtitle": "Gestión de proyectos y tareas con colaboración y tiempo real (MERN)",
+        "year": "2023",
+        "bullets": [
+          "API REST con JWT, confirmación por email y recuperación de contraseña (SendGrid).",
+          "Modelo de proyectos/tareas/colaboradores en MongoDB (Mongoose) con permisos por creador/colaborador.",
+          "Sincronización en tiempo real de tareas por proyecto con Socket.IO (rooms + eventos)."
+        ]
+      },
+      {
+        "name": "Cafe",
+        "meta": "Proyecto personal",
+        "subtitle": "Sistema de pedidos + cola de cocina (Next.js + Prisma)",
+        "year": "2023",
+        "bullets": [
+          "App de pedidos para cafetería en Next.js (App Router): menú por categorías → carrito → confirmación y envío de órdenes vía API Routes.",
+          "Panel de cocina/administración con cola de pedidos pendientes y actualización de estado a “completado” (sin sockets; propagación por polling con SWR).",
+          "Persistencia con Prisma + MySQL: catálogo Category–Product y Order con orderDetails en JSON + total/state."
+        ]
+      },
+      {
+        "name": "GuitarLA",
+        "meta": "Proyecto personal",
+        "subtitle": "Tienda de guitarras + blog (Next.js + Strapi)",
+        "year": "2023",
+        "bullets": [
+          "Frontend e-commerce + blog en Next.js (Pages Router) con rutas dinámicas para productos y posts.",
+          "Consumo de contenido desde Strapi (REST) vía API_URL, populate=image para media y filtros por url; SSG para listados/detalle de producto y SSR para detalle de blog.",
+          "Carrito persistido en localStorage con edición de cantidades/remoción y resumen; imágenes con Next Image + Cloudinary."
+        ]
+      }
+
+    ],
+    "s13": "También trabaje con",
+    "s14": "Focus Areas",
+    "focusAreas": [
+      "Entrega end-to-end de features",
+      "Ingeniería de UI mobile-first",
+      "Optimización de performance",
+      "Arquitectura de componentes y sistemas de UI",
+      "Manejo de estado y data fetching (cache/optimistic/revalidate)",
+      "Diseño e integración de APIs",
+      "Auth (authentication/authorization)",
+      "Testing (unit/integration + E2E)"
+    ],
+    "educationTitle": "Formación",
+    "viewCertificate": "Ver certificado",
+    "education": [
+      {
+        "name": "Udemy",
+        "subtitle": "React + TypeScript — Guía completa",
+        "year": "Mar 2024",
+        "credentialUrl": "https://www.udemy.com/certificate/UC-762eecb6-e28f-49f0-85c7-b1e02d63ad88/",
+        "bullets": [
+          "React + TypeScript: hooks (useEffect/useMemo/useCallback/useReducer), custom hooks y patrones de estado (Context + Zustand).",
+          "Formularios y validación: React Hook Form + Zod; consumo de APIs y buenas prácticas de tipado.",
+          "Next.js 14: App Router + Server Actions; integración con Prisma y fundamentos de apps full-stack (MERN/PERN)."
+        ]
+      },
+      {
+        "name": "Coderhouse",
+        "subtitle": "Desarrollo Web (JavaScript)",
+        "year": "Jul 2022",
+        "credentialUrl": "https://pub.coderhouse.com/legacy-certificates/62ed4c4013e76f002408d701?lang=es",
+        "bullets": [
+          "Proyecto final: e-wallet en React con integración Web3 (MetaMask) y entorno local con Ganache.",
+          "Smart contracts ERC-20 con Truffle (token y configuración de decimales)."
+        ]
+      }
+    ],
+    "selfLearningNote": "Autodidacta: aprendizaje continuo con documentación oficial y proyectos end-to-end."
   },
   "wallet": {
     "paragraph": "Esta app fue creada con React, utiliza Metamask para firmar transacciones, Ganache como blockchain, Truffle como compilador para los contratos y Babel por traducir react (ya que se usaron archivos .js). La billetera permite hacer y recibir transacciones de un token ERC20 el cual construi, llamado USDTM (USDT Mock) que posee los mismos decimales que el USDT"
@@ -141,5 +228,13 @@
 "weather-app": {
   "title": "App del Clima",
   "paragraph": "Este proyecto permite averiguar el clima en tiempo real de las ciudades de 6 paises diferentes a travez de una API"
+},
+"ts-blog": {
+  "title": "TypeScript Blog",
+  "paragraph": "Blog creado con Next.js y Sanity como CMS, con UI responsiva en Tailwind CSS. Lo desarrollé en ~2 semanas como proyecto práctico para incorporar TypeScript (venía trabajando principalmente con JSX) y consolidar tipado, componentes y data fetching."
+},
+"eventify": {
+  "title": "Eventify",
+  "paragraph": "Producto full-stack de descubrimiento y gestión de eventos construido con Next.js App Router, Clerk y Prisma/PostgreSQL, con experiencias diferenciadas para admin, organizer y attendee. Lo desarrollé como un deep dive en TypeScript: tipado estricto end-to-end (sin 'any') y contratos claros entre UI, API y base de datos. El core prioriza consistencia temporal con lógica timezone-aware (agenda y ordenamiento 'today/upcoming'), apoyándose en claves locales derivadas para ordenar correctamente según la zona del visitante. Incluye flujos de RSVP con reglas de unicidad y sincronización de preferencias de recordatorios, más envío de emails automatizado vía cron con plantillas en React Email. Para UX y performance, combina micro-interacciones (Motion One), cards con tilt/3D y fondos WebGL con fallbacks y respeto a 'prefers-reduced-motion'. Está respaldado por tests de unidad/integración y E2E (Vitest + Playwright) para mantener los flujos críticos regresión-safe."
 }
 }

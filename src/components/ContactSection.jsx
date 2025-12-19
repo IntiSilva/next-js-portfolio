@@ -16,7 +16,7 @@ const ContactSection = () => {
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-24 w-full ">
         <p className="title-style">{translations.common.Ct1}</p>
-        <h2 className="bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text py-4">
+        <h2 className="px-1 bg-gradient-to-r from-emerald-400 to-teal-700 text-transparent bg-clip-text py-4">
           {translations.common.Ct2}
         </h2>
         <div className="grid lg:grid-cols-5 gap-8">
@@ -87,7 +87,7 @@ const ContactSection = () => {
                       {translations.common.Cl1}
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300 text-gray-900"
+                      className="border-2 rounded-lg bg-[#141414] p-3 flex border-[#2D2D2D] focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/60 text-gray-300"
                       type="text"
                       name="name"
                     />
@@ -97,7 +97,7 @@ const ContactSection = () => {
                       {translations.common.Cl2}
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300 text-gray-900"
+                      className="border-2 rounded-lg bg-[#141414] p-3 flex border-[#2D2D2D] focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/60 text-gray-300"
                       type="text"
                       name="phone"
                     />
@@ -108,7 +108,7 @@ const ContactSection = () => {
                     {translations.common.Cl3}
                   </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300 text-gray-900"
+                    className="border-2 rounded-lg bg-[#141414] p-3 flex border-[#2D2D2D] focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/60 text-gray-300"
                     type="email"
                     name="email"
                   />
@@ -118,7 +118,7 @@ const ContactSection = () => {
                     {translations.common.Cl4}
                   </label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300 text-gray-900"
+                    className="border-2 rounded-lg bg-[#141414] p-3 flex border-[#2D2D2D] focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/60 text-gray-300"
                     type="text"
                     name="subject"
                   />
@@ -128,7 +128,7 @@ const ContactSection = () => {
                     {translations.common.Cl5}
                   </label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300 text-gray-900"
+                    className="border-2 rounded-lg bg-[#141414] p-3 border-[#2D2D2D] focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/60 text-gray-300"
                     rows="10"
                     name="message"
                   ></textarea>
