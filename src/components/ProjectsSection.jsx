@@ -36,10 +36,10 @@ const ProjectsSection = () => {
             mainTech="Next.js, NextUI, Strapi, Google Maps API"
           />
           <ProjectItem
-            originalTitle="Eth-Wallet"
-            backgroundImg="/assets/projects/wallet.webp"
-            id="wallet"
-            mainTech="React, Web3 JS, Truffle"
+            originalTitle="GuitarLA"
+            backgroundImg="/assets/projects/guitarla.webp"
+            id="guitar-la"
+            mainTech="Next.js | Remix, Strapi, PostgreSQL"
           />
           
         </div>
