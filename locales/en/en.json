@@ -147,7 +147,7 @@
         "year": "Mar 2024",
         "credentialUrl": "https://www.udemy.com/certificate/UC-762eecb6-e28f-49f0-85c7-b1e02d63ad88/",
         "bullets": [
-          "React + TypeScript: core hooks (useEffect/useMemo/useCallback/useReducer), custom hooks, and state patterns (Context + Zustand).",
+          "React + TypeScript: core hooks (useEffect / useMemo /useCallback/useReducer), custom hooks, and state patterns (Context + Zustand).",
           "Forms and validation: React Hook Form + Zod; API consumption and type-safe practices.",
           "Next.js 14: App Router + Server Actions; Prisma integration and full-stack foundations (MERN/PERN)."
         ]
