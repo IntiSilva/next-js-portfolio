@@ -22,10 +22,10 @@ const ProjectItem = ({ originalTitle, backgroundImg, mainTech, id }) => {
 
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl text-white tracking-wider text-center">
+        <h3 className="text-xl [@media(min-width:410px)]:text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">{mainTech}</p>
+        <p className="pb-4 pt-2 text-sm [@media(min-width:410px)]:text-base text-white text-center">{mainTech}</p>
         <Link href={`/projects/${id}?referrer=${pathname}`} scroll={true}>
           <p className="text-center py-3 rounded-lg bg-white text-emerald-800 font-bold text-lg cursor-pointer">
             {translations.common.PprojectB}

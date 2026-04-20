@@ -76,7 +76,15 @@ const ProjectPageClient = ({params}) => {
           <div className="col-span-4">
             <p>{translations.common.ProjectPageP1}</p>
             <h2 className="pb-4">{translations.common.ProjectPageT1}</h2>
-            <p> {projectTranslations.paragraph}</p>
+            <div className="space-y-4">
+              {Array.isArray(projectTranslations.paragraphs)
+                ? projectTranslations.paragraphs.map((paragraph, index) => (
+                    <p key={index} className="leading-7">
+                      {paragraph}
+                    </p>
+                  ))
+                : <p className="leading-7">{projectTranslations.paragraph}</p>}
+            </div>
 
             { project.hasCode &&
               <Link

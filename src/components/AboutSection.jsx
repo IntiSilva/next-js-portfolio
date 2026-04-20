@@ -22,13 +22,8 @@ const AboutSection = () => {
           <p className="p-2 text-justify text-zinc-300">
             {translations.common.Ap2}
           </p>
-          <Link href="/#projects">
-            <p className="py-2 text-teal-700 underline cursor-pointer">
-              {translations.common.AsubT}
-            </p>
-          </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-emerald-400/50 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto pt-4 md:pt-0 shadow-xl shadow-emerald-400/50 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>

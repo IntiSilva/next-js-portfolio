@@ -25,6 +25,7 @@ import Postgresql from "../../public/assets/skills/postgresql.png";
 import Playwright from "../../public/assets/skills/playwright.png";
 import Vitest from "../../public/assets/skills/vitest.svg";
 import SWR from "../../public/assets/skills/swr.svg";
+import Stripe from "../../public/assets/skills/stripe.jpeg"; 
 
 import useLanguage from "@/hooks/useLanguage";
 
@@ -42,6 +43,7 @@ const SKILLS = [
   { label: "Redux", icon: Redux },
 
   // Backend / Auth
+  { label: "Stripe", icon: Stripe },
   { label: "Node.js", icon: Node },
   { label: "Express", icon: Express },
   { label: "Prisma", icon: Prisma },

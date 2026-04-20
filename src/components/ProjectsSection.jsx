@@ -21,7 +21,13 @@ const ProjectsSection = () => {
             originalTitle="Eventify"
             backgroundImg="/assets/projects/eventify.webp"
             id="eventify"
-            mainTech="Next.js, Clerk, Prisma, Shadcn UI, Motion One"
+            mainTech="Next.js, Clerk, Prisma, Shadcn UI, Motion One, Typescript"
+          />
+          <ProjectItem
+            originalTitle="Argentina Survival Guide"
+            backgroundImg="/assets/projects/argentinasurvivalguide.webp"
+            id="argentina-survival-guide"
+            mainTech="Next.js, Prisma, Hotmart, LemonSqueezy, Google Sheets API, TypeScript"
           />
           <ProjectItem
             originalTitle="RS Electric LLC."
@@ -34,12 +40,6 @@ const ProjectsSection = () => {
             backgroundImg="/assets/projects/oldtimesailors.webp"
             id="old-time-sailors"
             mainTech="Next.js, NextUI, Strapi, Google Maps API"
-          />
-          <ProjectItem
-            originalTitle="GuitarLA"
-            backgroundImg="/assets/projects/guitarla.webp"
-            id="guitar-la"
-            mainTech="Next.js | Remix, Strapi, PostgreSQL"
           />
           
         </div>

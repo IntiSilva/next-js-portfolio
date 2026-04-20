@@ -6,8 +6,8 @@
     "Mp": "Full-stack con foco en front-end: interfaces cuidadas, rendimiento y UX mobile-first. Trabajo backend end-to-end (APIs, autenticación y datos) cuando hace falta.",
     "At": "Sobre mi",
     "At2": "Quien soy",
-    "Ap1": "Soy desarrollador full-stack (con foco en front-end) con mentalidad de producto. Me enfoco en construir interfaces cuidadas con animaciones/micro-interacciones bien medidas y una UX mobile-first, manteniendo performance y calidad de código como prioridad. Mi stack principal es Next.js/React + TypeScript.",
-    "Ap2": "Programo desde 2021 y en los últimos años trabajé en proyectos end-to-end: diseño e implementación de UI, definición de flujos y lógica de negocio, integración de APIs, autenticación/autorización y modelado de datos. Me gusta trabajar con tipado estricto, componentes reutilizables y una arquitectura mantenible, respaldada por testing para que los cambios no rompan flujos críticos.",
+    "Ap1": "Soy un desarrollador full-stack (con foco en front-end) con mentalidad de producto. Me enfoco en construir interfaces cuidadas con animaciones/micro-interacciones bien medidas y una UX mobile-first, manteniendo performance y calidad de código como prioridad. Mi stack principal es Next.js/React + TypeScript.",
+    "Ap2": "Programo desde 2021 y en los últimos años trabajé en proyectos end-to-end: diseño e implementación de UI, definición de flujos y lógica de negocio, integración de APIs de terceros (incluyendo sistemas de pagos con Stripe y Stripe Connect), autenticación/autorización y modelado de datos. Me gusta trabajar con tipado estricto, componentes reutilizables y una arquitectura mantenible, respaldada por testing para que los cambios no rompan flujos críticos.",
     "Asubt": "Observa de cerca mis proyectos más recientes",
     "St1": "Habilidades",
     "St2": "Dominio destacado",
@@ -50,7 +50,7 @@
     "p1": "Full-stack (frontend-focused)",
     "s1": "Mobile-first",
     "s2": "Bilingüe (ES/EN)",
-    "p2": "Full-stack developer (frontend-focused) con experiencia construyendo aplicaciones web con React/Next.js + TypeScript. Diseño componentes, estado, data fetching y rutas, y extiendo hacia backend cuando corresponde (APIs, auth y persistencia). Priorizo contratos claros entre capas, tipado estricto y un flujo de desarrollo con linting y tests (unit/integration + E2E) para evitar regresiones.",
+    "p2": "Desarrollador full-stack (con foco en front-end) con experiencia construyendo aplicaciones web con React/Next.js + TypeScript. Diseño e implemento interfaces, manejo estado, data fetching y rutas, y extiendo hacia backend cuando el producto lo requiere: APIs, autenticación/autorización, persistencia e integraciones de terceros como Stripe y Stripe Connect. Priorizo contratos claros entre capas, tipado estricto y un flujo de desarrollo respaldado por linting y tests (unit/integration + E2E) para evitar regresiones.",
     "s3": "Habilidades",
     "s4": "Habilidades Técnicas",
     "s5": "Desarrollo Web FullStack",
@@ -85,10 +85,22 @@
         "subtitle": "Plataforma full-stack de eventos (Next.js + TypeScript + Prisma)",
         "year": "2025",
         "bullets": [
-          "Experiencias por rol (admin/organizer/user) con auth y permisos.",
-          "CRUD completo, búsqueda/filtros + paginación, RSVP y recordatorios por email.",
-          "UI mobile-first con foco en performance, accesibilidad y micro-interacciones.",
-          "Testing: unit/integration + E2E para evitar regresiones."
+          "Construí una plataforma de eventos con experiencias diferenciadas por rol (admin, organizer, attendee), incluyendo CRUD, búsqueda, filtros, paginación, agenda personalizada y tickets comprados.",
+          "Implementé un sistema de pagos completo con Stripe y Stripe Connect: onboarding de organizers, creación de eventos pagos condicionada por payout readiness, checkout resiliente, sincronización por webhooks y lifecycle de refunds.",
+          "Desarrollé dashboards operacionales para organizer y admin con analytics scoped, KPIs, trend charts, workspaces de payments/refunds y herramientas de moderación y resolución manual.",
+          "Priorizé UX mobile-first, tipado estricto y cobertura de testing con Vitest + Playwright para mantener flujos críticos regresión-safe."
+        ]
+      },
+      {
+        "name": "Argentina Survival Guide",
+        "meta": "Proyecto personal",
+        "subtitle": "Travel commerce + operaciones para productos, servicios y reservas (Next.js + TypeScript + Prisma)",
+        "year": "2025",
+        "bullets": [
+          "Construí una aplicación full-stack para vender productos digitales y servicios, con flujos de reserva, confirmación por email, QR y check-in validado por partner.",
+          "Implementé checkout y procesamiento post-compra con múltiples proveedores (Hotmart y LemonSqueezy), incluyendo webhooks verificados, mapping a entidades internas, fulfillment automatizado y lifecycle de access tokens y entitlements.",
+          "Diseñé una arquitectura híbrida con Prisma/PostgreSQL para el estado transaccional y Google Sheets como workspace operativo para reservas, partners y logs de compras/fulfillment.",
+          "Añadí mitigaciones para edge cases y abuso: procesamiento idempotente de webhooks, dedupe, rate limits, lockouts por PIN inválido y resguardos de consistencia entre base de datos, email provider y Sheets."
         ]
       },
       {
@@ -112,17 +124,6 @@
           "Panel de cocina/administración con cola de pedidos pendientes y actualización de estado a “completado” (sin sockets; propagación por polling con SWR).",
           "Persistencia con Prisma + MySQL: catálogo Category–Product y Order con orderDetails en JSON + total/state."
         ]
-      },
-      {
-        "name": "GuitarLA",
-        "meta": "Proyecto personal",
-        "subtitle": "Tienda de guitarras + blog (Next.js + Strapi)",
-        "year": "2023",
-        "bullets": [
-          "Frontend e-commerce + blog en Next.js (Pages Router) con rutas dinámicas para productos y posts.",
-          "Consumo de contenido desde Strapi (REST) vía API_URL, populate=image para media y filtros por url; SSG para listados/detalle de producto y SSR para detalle de blog.",
-          "Carrito persistido en localStorage con edición de cantidades/remoción y resumen; imágenes con Next Image + Cloudinary."
-        ]
       }
 
     ],
@@ -134,8 +135,9 @@
       "Optimización de performance",
       "Arquitectura de componentes y sistemas de UI",
       "Manejo de estado y data fetching (cache/optimistic/revalidate)",
-      "Diseño e integración de APIs",
+      "Diseño e integración de APIs e integraciones de terceros",
       "Auth (authentication/authorization)",
+      "Payments, lógica de negocio y workflows operacionales",
       "Testing (unit/integration + E2E)"
     ],
     "educationTitle": "Formación",
@@ -235,6 +237,20 @@
 },
 "eventify": {
   "title": "Eventify",
-  "paragraph": "Producto full-stack de descubrimiento y gestión de eventos construido con Next.js App Router, Clerk y Prisma/PostgreSQL, con experiencias diferenciadas para admin, organizer y attendee. Lo desarrollé como un deep dive en TypeScript: tipado estricto end-to-end (sin 'any') y contratos claros entre UI, API y base de datos. El core prioriza consistencia temporal con lógica timezone-aware (agenda y ordenamiento 'today/upcoming'), apoyándose en claves locales derivadas para ordenar correctamente según la zona del visitante. Incluye flujos de RSVP con reglas de unicidad y sincronización de preferencias de recordatorios, más envío de emails automatizado vía cron con plantillas en React Email. Para UX y performance, combina micro-interacciones (Motion One), cards con tilt/3D y fondos WebGL con fallbacks y respeto a 'prefers-reduced-motion'. Está respaldado por tests de unidad/integración y E2E (Vitest + Playwright) para mantener los flujos críticos regresión-safe."
+  "paragraphs": [
+    "Plataforma full-stack de descubrimiento y gestión de eventos construida con Next.js App Router, Clerk y Prisma/PostgreSQL, con experiencias diferenciadas por rol (admin, organizer, attendee). El proyecto arrancó como un deep dive en TypeScript estricto —sin any, contratos claros entre UI, API y base de datos— y creció hasta convertirse en un sistema con lógica de negocio no trivial en varias capas.",
+    "El núcleo de la plataforma incluye un sistema de pagos completo con Stripe y Stripe Connect: onboarding de organizadores con payout routing real (destination charges + application fee), creación de eventos pagos condicionada a la disponibilidad del Connect account, y un lifecycle de PaymentIntent resiliente con idempotency keys versionadas y política explícita para intents desactualizados. El checkout usa una intercepted route con overlay UX, validación pre-confirmación y limpieza del retorno 3DS. La asistencia a eventos no depende solo del RSVP: está vinculada al estado de pago y se actualiza automáticamente ante reembolsos. Ante un caso edge donde el pago llega después de que el evento ya no es joinable, el sistema dispara un reembolso de compensación automático. Todo el ciclo está respaldado por webhooks para payment_intent.*, refund.updated y account.updated, con tests cubriendo los failure modes, no solo el happy path.",
+    "Encima de eso, hay dashboards operacionales por rol: el organizer dashboard combina un signal deck (métricas de refunds, pipeline de eventos pagos, risk/opportunity rotativos) con carruseles, spotlight, trend analytics por ventana de 7/30 días, y workspaces de pagos y reembolsos con filtros y drill-down. El admin dashboard agrega KPIs globales de plataforma, un shell de gestión de usuarios con drilldown por organizador, y herramientas de moderación (Admin's Pick, archivado, reembolso manual). Los attendees tienen una agenda propia con dashboard de cues contextuales y un drawer con todos sus tickets.",
+    "En UX y performance: micro-interacciones con Motion One, cards con tilt/3D, fondos WebGL con fallbacks y respeto a prefers-reduced-motion, lógica timezone-aware para ordenamiento today/upcoming, y envío de emails automatizado vía cron con plantillas en React Email. Testing con Vitest + Playwright para mantener los flujos críticos regresión-safe."
+  ]
+},
+"argentinasurvivalguide": {
+  "title": "Argentina Survival Guide",
+  "paragraphs": [
+    "Argentina Survival Guide es una aplicación full-stack de travel commerce y operaciones, construida con Next.js App Router, TypeScript y Prisma/PostgreSQL. Aunque hacia el usuario se presenta como una experiencia clara y simple para descubrir servicios y hacer reservas, por detrás resuelve flujos reales de negocio: venta de productos digitales y servicios, reservas con partners locales, emails transaccionales, check-in con QR y PIN, y procesamiento automatizado de compras mediante webhooks.",
+    "El proyecto combina múltiples integraciones en una sola arquitectura. Para checkout y fulfillment, conecta distintos proveedores según el tipo de producto: LemonSqueezy para guías digitales y Hotmart para servicios y planes, con lógica específica por dispositivo y proveedor para mantener una UX consistente. A nivel backend, los eventos de pago se verifican, normalizan y procesan de forma idempotente para actualizar compras, entitlements, access tokens, estados de entrega por email y logs operativos sin duplicaciones ni inconsistencias.",
+    "Además de la capa comercial, desarrollé un flujo operativo completo de reservas y check-in. Las reservas validan compatibilidad entre actividad y partner, escriben datos en Google Sheets como workspace operativo, envían confirmación por email con QR y habilitan un check-in posterior protegido por PIN del partner. Ese flujo también incluye mitigaciones reales para edge cases y abuso, como rate limits, lockouts por PIN inválido, dedupe de envíos y resguardo de consistencia entre base de datos, email provider y Sheets.",
+    "A nivel producto, también incorpora UX multilenguaje, surfaces legales para compra, formularios validados con buen data capture y una arquitectura híbrida pragmática: Postgres/Prisma para el estado transaccional y Google Sheets para la operación diaria. El resultado no es solo una web promocional, sino un sistema orientado a ejecutar ventas, coordinar reservas y sostener workflows reales de atención y fulfillment."
+  ]
 }
 }
