@@ -244,7 +244,7 @@
     "En UX y performance: micro-interacciones con Motion One, cards con tilt/3D, fondos WebGL con fallbacks y respeto a prefers-reduced-motion, lógica timezone-aware para ordenamiento today/upcoming, y envío de emails automatizado vía cron con plantillas en React Email. Testing con Vitest + Playwright para mantener los flujos críticos regresión-safe."
   ]
 },
-"argentinasurvivalguide": {
+"argentina-survival-guide": {
   "title": "Argentina Survival Guide",
   "paragraphs": [
     "Argentina Survival Guide es una aplicación full-stack de travel commerce y operaciones, construida con Next.js App Router, TypeScript y Prisma/PostgreSQL. Aunque hacia el usuario se presenta como una experiencia clara y simple para descubrir servicios y hacer reservas, por detrás resuelve flujos reales de negocio: venta de productos digitales y servicios, reservas con partners locales, emails transaccionales, check-in con QR y PIN, y procesamiento automatizado de compras mediante webhooks.",

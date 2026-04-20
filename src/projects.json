@@ -14,7 +14,7 @@
       "websiteUrl": "https://eventifylive.vercel.app/"
     },
     {
-      "id": "argentinasurvivalguide",
+      "id": "argentina-survival-guide",
       "finished": true,
       "originalTitle": "Argentina Survival Guide",
       "mainTech": "Next.js, Prisma, Hotmart, LemonSqueezy, Google Sheets API, TypeScript",
