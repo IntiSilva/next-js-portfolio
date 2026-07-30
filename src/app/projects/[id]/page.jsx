@@ -1,5 +1,6 @@
 import projects from "@/projects.json"
 import ProjectPageClient from "@/components/ClientPages/ProjectPageClient"
+import { notFound } from "next/navigation"
 
 // Function to fetch project data based on params
 const fetchProjectData = (params) => {
@@ -25,6 +26,12 @@ export const generateMetadata = ({params}) => {
 };
 
 const ProjectPage = ({params}) => {
+  const project = fetchProjectData(params)
+
+  if (!project) {
+    notFound()
+  }
+
   return (
     <>
       <ProjectPageClient params={params} />

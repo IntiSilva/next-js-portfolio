@@ -20,7 +20,7 @@ const ProjectsClient = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {projects.map((project) => (
                             project.finished ?
-                            <div className="aspect-w-10 aspect-h-0" key={project.id}> 
+                            <div className="aspect-[8/5]" key={project.id}> 
                               <ProjectItem
                                 
                                 originalTitle={project.originalTitle}
@@ -31,7 +31,7 @@ const ProjectsClient = () => {
                             </ div>
                             :
 
-                            <div className="aspect-w-10 aspect-h-7" key={project.id}>
+                            <div className="aspect-[8/5]" key={project.id}>
                               <ProjectItemUnderDevelopment
                                 
                                 originalTitle={project.originalTitle}

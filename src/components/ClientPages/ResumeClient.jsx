@@ -68,6 +68,8 @@ function PillsList({ items }) {
 
 const ResumeClient = () => {
   const { translations } = useLanguage();
+  const entertainmentProject =
+    translations.resume["interactive-web-experience"];
 
   return (
     <>
@@ -199,16 +201,19 @@ const ResumeClient = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Old Time Sailors LTD.</span>
+            <span className="font-bold italic">
+              {entertainmentProject.heading}
+            </span>
           </p>
 
-          <p className="py-1 italic">{translations.resume.ots1}(2023)</p>
+          <p className="py-1 italic">
+            {entertainmentProject.subtitle}(2023)
+          </p>
 
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>{translations.resume.ots2}</li>
-            <li>{translations.resume.ots3}</li>
-            <li>{translations.resume.ots4}</li>
-            <li>{translations.resume.ots5}</li>
+            {entertainmentProject.bullets.map((bullet) => (
+              <li key={bullet}>{bullet}</li>
+            ))}
           </ul>
         </div>
 

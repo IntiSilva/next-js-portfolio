@@ -8,14 +8,14 @@ const ProjectItemUnderDevelopment = ({ originalTitle, backgroundImg, mainTech, i
   const title = translations[id]?.title || originalTitle
 
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl group hover:bg-gradient-to-r from-gray-900 to-gray-500 ease-in duration-300">
+    <div className="relative flex items-center justify-center h-full w-full shadow-xl shadow-black rounded-xl group hover:bg-gradient-to-r from-gray-900 to-gray-500 ease-in duration-300">
       <Image
-        className="rounded-xl group-hover:opacity-10 ease-in duration-300"
+        className="rounded-xl group-hover:opacity-10 ease-in duration-300 w-full h-full"
         src={backgroundImg}
         alt={`${originalTitle} background image`}
         width={1366}
         height={955}
-        style={{objectFit: "cover"}}
+        style={{objectFit: "cover", objectPosition: "top"}}
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl text-white tracking-wider text-center">

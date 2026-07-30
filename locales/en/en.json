@@ -73,11 +73,16 @@
     "rselectric1": "Corporate website with Wordpress",
     "rselectric2": "This project was developed using Wordpress and a theme as the base design, which was then modified to the client's liking.",
     "rselectric3": "It features several functionalities and security measures such as anti-malware protection, some SEO implementations, automatic emails, and spam prevention.",
-    "ots1": "Artistic | Corporate website with Next.js 14",
-    "ots2": "This work features several functionalities and implementations, as well as complex design polygons that calculate their shape automatically.",
-    "ots3": "Implementation of Google Maps JavaScript API to create an overlay map superimposed on the United Kingdom, this map has custom markers and popups.",
-    "ots4": "Integration with Howler.js to handle sound and create an audio player with complete features (Play/Pause, Next, Previous, Shuffle, Repeat, and Repeat one).",
-    "ots5": "It makes use of the latest features and optimizations of Next.js such as server components, image placeholders, dynamic imports, etc. to achieve fast loading and efficient operation despite its large amount of content and interactions.",
+    "interactive-web-experience": {
+      "heading": "Independent Fullstack Developer — Entertainment Client",
+      "subtitle": "Artistic | Corporate website with Next.js 14",
+      "bullets": [
+        "This work features several functionalities and implementations, as well as complex polygon-based layouts whose shapes are calculated automatically.",
+        "Implementation of the Google Maps JavaScript API to create a custom overlay map of the United Kingdom with custom markers and popups.",
+        "Integration with Howler.js to handle sound and create a complete custom audio player with Play/Pause, Next, Previous, Shuffle, Repeat, and Repeat One functionality.",
+        "Use of Next.js 14 features and optimizations such as Server Components, image placeholders, and dynamic imports to achieve fast loading and efficient operation despite the website's large amount of content and interactions."
+      ]
+    },
     "selectedProjects": [
       {
         "name": "Eventify",
@@ -179,8 +184,9 @@
   "portfolio": {
     "paragraph": "Portfolio designed and created with Next.js 13.4.1, integrated with Framer Motion and Tailwind CSS, featuring dynamic project display, animations, context, and form, connected through Github with Vercel."
   },
-  "old-time-sailors": {
-    "paragraph": "Artistic | corporate website for Old Time Sailors LTD., featuring integration with the Google Maps API for ticket mapping, Howler for its custom music player, and complex styles. It uses Next.js 14, Strapi, PostgreSQL for its functionality."
+  "interactive-web-experience": {
+    "title": "Interactive Web Experience",
+    "paragraph": "Artistic | corporate website for an entertainment company, featuring integration with the Google Maps JavaScript API for ticket mapping, Howler.js for its custom music player, and complex styles. It uses Next.js 14, Strapi, and PostgreSQL for its functionality."
   },
   "kiosk": {
     "paragraph": "Project with various coffee shop items that uses SWR to send updates of pending orders to the kitchen, and Prisma to manage the database."
@@ -228,7 +234,7 @@
       "A full-stack event discovery and management platform built with Next.js App Router, Clerk, and Prisma/PostgreSQL, with differentiated experiences per role (admin, organizer, attendee). The project started as a deep dive into strict TypeScript —no any, clear contracts between UI, API, and database— and grew into a system with non-trivial business logic across multiple layers.",
       "The core of the platform includes a complete payments system built on Stripe and Stripe Connect: organizer onboarding with real payout routing (destination charges + application fee), paid event creation gated by Connect account readiness, and a resilient PaymentIntent lifecycle with versioned idempotency keys and an explicit policy for stale intents. Checkout uses an intercepted route with overlay UX, pre-confirmation validation, and 3DS return cleanup. Event attendance isn't just RSVP-based: it's tied to payment state and automatically updated on refunds. When a payment succeeds after an event is no longer joinable, the system triggers an automatic compensation refund. The full cycle is backed by webhooks for payment_intent.*, refund.updated, and account.updated, with tests covering failure modes, not just the happy path.",
       "On top of that, there are role-scoped operational dashboards: the organizer dashboard combines a signal deck (refund metrics, paid event pipeline, rotating risk/opportunity signals) with carousels, a spotlight panel, trend analytics with 7/30-day windows, and payments/refunds workspaces with filters and drill-downs. The admin dashboard adds global platform KPIs, a user management shell with per-organizer drilldown, and moderation tools (Admin's Pick, archiving, manual refund). Attendees get their own agenda with contextual dashboard cues and a drawer showing all purchased tickets.",
-      "On the UX and performance side: micro-interactions with Motion One, tilt/3D cards, WebGL backgrounds with fallbacks and prefers-reduced-motion support, timezone-aware logic for today/upcoming ordering, and automated email sending via cron with React Email templates. Tested with Vitest + Playwright to keep critical flows regression-safe."
+      "On the UX and performance side: micro-interactions with Motion (Motion.dev), tilt/3D cards, WebGL backgrounds with fallbacks and prefers-reduced-motion support, timezone-aware logic for today/upcoming ordering, and automated email sending via cron with React Email templates. Tested with Vitest + Playwright to keep critical flows regression-safe."
     ]
   },
   "argentina-survival-guide": {
@@ -239,5 +245,9 @@
     "Beyond commerce, I built a full reservation and check-in operations flow. Reservations validate partner/activity compatibility, write records into Google Sheets as an operational workspace, send confirmation emails with QR codes, and enable a later partner-side check-in protected by PIN verification. That flow also includes real safeguards for edge cases and abuse, such as rate limits, invalid-PIN lockouts, submission dedupe, and consistency protections across the database, email provider, and Sheets.",
     "On the product side, the app also includes multilingual UX, legal/compliance surfaces around purchasing, validated forms with careful data capture, and a pragmatic hybrid architecture: Postgres/Prisma for transactional state and Google Sheets for day-to-day operations. The result is not just a marketing site, but a system designed to execute sales, coordinate reservations, and support real fulfillment workflows."
   ]
+},
+  "bloxcart-pdp": {
+    "title": "BloxCart",
+    "paragraph": "Product Detail Page developed as a frontend take-home from a supplied Figma design and implemented with production-oriented practices using Next.js 16, React 19, and strict TypeScript. It includes localized server-rendered routes, dedicated responsive compositions for desktop, tablet, and mobile, a product gallery, quantity selection, dynamic pricing and savings, local cart state, functional navigation, and available/out-of-stock states. The architecture separates server-rendered content from interactive components and incorporates ISR, canonical and hreflang metadata, Open Graph, Product JSON-LD, sitemap and robots output, keyboard accessibility, visible focus states, and reduced-motion support. It uses local mock data rather than a live commerce backend and documents how it could evolve into a production integration."
 }
 }

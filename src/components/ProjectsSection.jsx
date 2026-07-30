@@ -17,31 +17,38 @@ const ProjectsSection = () => {
           {translations.common.Pt2}
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            originalTitle="Eventify"
-            backgroundImg="/assets/projects/eventify.webp"
-            id="eventify"
-            mainTech="Next.js, Clerk, Prisma, Shadcn UI, Motion One, Typescript"
-          />
-          <ProjectItem
-            originalTitle="Argentina Survival Guide"
-            backgroundImg="/assets/projects/argentinasurvivalguide.webp"
-            id="argentina-survival-guide"
-            mainTech="Next.js, Prisma, Hotmart, LemonSqueezy, Google Sheets API, TypeScript"
-          />
-          <ProjectItem
-            originalTitle="RS Electric LLC."
-            backgroundImg="/assets/projects/rselectricllc.webp"
-            id="rs-electric"
-            mainTech="Wordpress, Elementor, Builty"
-          />
-          <ProjectItem
-            originalTitle="Old Time Sailors"
-            backgroundImg="/assets/projects/oldtimesailors.webp"
-            id="old-time-sailors"
-            mainTech="Next.js, NextUI, Strapi, Google Maps API"
-          />
-          
+          <div className="aspect-[8/5]">
+            <ProjectItem
+              originalTitle="Eventify"
+              backgroundImg="/assets/projects/eventify.webp"
+              id="eventify"
+              mainTech="Next.js, Clerk, Prisma, Shadcn UI, Motion, Typescript"
+            />
+          </div>
+          <div className="aspect-[8/5]">
+            <ProjectItem
+              originalTitle="Argentina Survival Guide"
+              backgroundImg="/assets/projects/argentinasurvivalguide.webp"
+              id="argentina-survival-guide"
+              mainTech="Next.js, Prisma, Hotmart, LemonSqueezy, Google Sheets API, TypeScript"
+            />
+          </div>
+          <div className="aspect-[8/5]">
+            <ProjectItem
+              originalTitle="BloxCart"
+              backgroundImg="/assets/projects/bloxcart.webp"
+              id="bloxcart-pdp"
+              mainTech="Next.js 16, React 19, TypeScript, Tailwind, Shadcn, Motion, next-intl"
+            />
+          </div>
+          <div className="aspect-[8/5]">
+            <ProjectItem
+              originalTitle="RS Electric LLC."
+              backgroundImg="/assets/projects/rselectricllc.webp"
+              id="rs-electric"
+              mainTech="Wordpress, Elementor, Builty"
+            />
+          </div>
         </div>
         <Link href="/projects" className="flex items-end py-10 pl-3 md:pl-6">
           <div className="inline-flex items-end hover:pl-8 ease-in duration-200">

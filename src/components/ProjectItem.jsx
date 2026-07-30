@@ -19,6 +19,7 @@ const ProjectItem = ({ originalTitle, backgroundImg, mainTech, id }) => {
         width={0}
         height={0}
         sizes="(max-width: 640px) 90vw, (max-width: 1024px) 40vw, 33vw"
+        style={{objectFit: "cover", objectPosition: "top"}}
 
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">

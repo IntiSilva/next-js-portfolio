@@ -4,7 +4,6 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import projects from "@/projects.json"
-import { RiRadioButtonFill } from "react-icons/ri"
 import Transitions from "@/components/Transitions";
 import useLanguage from "@/hooks/useLanguage";
 import formatTech from "@/helpers/formatTech"
@@ -52,7 +51,7 @@ const ProjectPageClient = ({params}) => {
               fill={true}
               sizes="100vh"
               src={project.mediaUrl}
-              alt={`${project.title} cover image`}
+              alt={`${title} cover image`}
             />
           </>
           : <iframe
@@ -72,8 +71,8 @@ const ProjectPageClient = ({params}) => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
-          <div className="col-span-4">
+        <div className="mx-auto grid max-w-[1240px] grid-cols-1 gap-8 p-2 py-8 md:grid-cols-[minmax(0,1fr)_250px] lg:grid-cols-[minmax(0,1fr)_300px] xl:grid-cols-[minmax(0,1fr)_320px]">
+          <div className="min-w-0">
             <p>{translations.common.ProjectPageP1}</p>
             <h2 className="pb-4">{translations.common.ProjectPageT1}</h2>
             <div className="space-y-4">
@@ -110,22 +109,39 @@ const ProjectPageClient = ({params}) => {
             }
 
           </div>
-          <div className="bg-[#1F1F1F] col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl py-4">
-            <div className="p-2">
-              <p className="text-center text-zinc-300 font-bold pb-2">
-                {translations.common.ProjectPageP2}
-              </p>
-              <div className="grid grid-cols-3 md:grid-cols-1">
-
-                { project.tech.map((technology, index) => (
-                <p key={index} className="py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> {technology}
-                </p>
-                ))}
-
-              </div>
-            </div>
-          </div>
+          <aside
+            className="w-full min-w-0 self-start rounded-xl border border-zinc-700/60 bg-[#1F1F1F] p-4 shadow-xl shadow-black"
+            aria-labelledby="project-tech-heading"
+          >
+            <h3
+              id="project-tech-heading"
+              className="text-left text-sm font-bold uppercase tracking-widest text-zinc-200"
+            >
+              {translations.common.ProjectPageP2}
+            </h3>
+            <div
+              className="mt-2 h-0.5 w-10 rounded-full bg-emerald-500"
+              aria-hidden="true"
+            />
+            <ol className="mt-4 divide-y divide-zinc-700/60 border-y border-zinc-700/60">
+              {project.tech.map((technology, index) => (
+                <li
+                  key={technology}
+                  className="grid min-w-0 grid-cols-[2rem_minmax(0,1fr)] items-start gap-3 py-3"
+                >
+                  <span
+                    className="font-mono text-xs leading-6 tabular-nums tracking-wider text-emerald-400/80"
+                    aria-hidden="true"
+                  >
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <span className="min-w-0 whitespace-normal break-normal leading-6 text-zinc-300">
+                    {technology}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </aside>
             <button className="backButton" onClick={goBack}>
               {translations.common.ProjectPageP3}
             </button>

@@ -4,8 +4,8 @@
       "id": "eventify",
       "finished": true,
       "originalTitle": "Eventify",
-      "mainTech": "Next.js, Clerk, Prisma, Stripe, Shadcn UI, Motion One, Typescript",
-      "tech": ["Next.js", "Clerk", "Prisma", "Typescript", "Stripe", "Shadcn UI", "Radix UI", "Motion One", "OGL", "Recharts", "LordIcons", "Tailwind CSS", "SWR", "Neon", "Brevo", "Svix", "Zod", "Vitest", "Playwright"],
+      "mainTech": "Next.js, Clerk, Prisma, Stripe, Shadcn UI, Motion, Typescript",
+      "tech": ["Next.js", "Clerk", "Prisma", "Typescript", "Stripe", "Shadcn UI", "Radix UI", "Motion", "OGL", "Recharts", "LordIcons", "Tailwind CSS", "SWR", "Neon", "Brevo", "Svix", "Zod", "Vitest", "Playwright"],
       "backgroundImg": "/assets/projects/eventify.webp",
       "mediaType": "image",
       "mediaUrl": "/assets/projects/eventify.webp",
@@ -27,6 +27,20 @@
       "websiteUrl": "https://argentinasurvivalguide.com/"
     },
     {
+      "id": "bloxcart-pdp",
+      "finished": true,
+      "originalTitle": "BloxCart",
+      "mainTech": "Next.js 16, React 19, TypeScript, Tailwind, Shadcn, Motion, next-intl",
+      "tech": ["Next.js 16", "React 19", "TypeScript", "Tailwind", "Shadcn", "Motion", "next-intl"],
+      "backgroundImg": "/assets/projects/bloxcart.webp",
+      "mediaType": "image",
+      "mediaUrl": "/assets/projects/bloxcart.webp",
+      "hasCode": true,
+      "hasWebsite": true,
+      "codeUrl": "https://github.com/IntiSilva/bloxcart-pdp",
+      "websiteUrl": "https://bloxcart-pdp-inti-silva.vercel.app/"
+    },
+    {
       "id": "rs-electric",
       "finished": true,
       "originalTitle": "RS Electric LLC.",
@@ -40,17 +54,16 @@
       "websiteUrl": "https://rselectriclv.com/"
     },
     {
-      "id": "old-time-sailors",
+      "id": "interactive-web-experience",
       "finished": true,
-      "originalTitle": "Old Time Sailors",
-      "mainTech": "Next.js, NextUI, Strapi, Google Maps API",
-      "tech": ["Next.js", "NextUI", "Tailwind CSS", "Strapi", "PostgreSQL", "Google Maps API", "Howler","Cloudinary"],
-      "backgroundImg": "/assets/projects/oldtimesailors.webp",
+      "originalTitle": "Interactive Web Experience",
+      "mainTech": "Next.js 14, NextUI, Strapi, Google Maps JavaScript API",
+      "tech": ["Next.js 14", "NextUI", "Tailwind CSS", "Strapi", "PostgreSQL", "Google Maps JavaScript API", "Howler.js", "Cloudinary"],
+      "backgroundImg": "/assets/projects/project-placeholder.webp",
       "mediaType": "image",
-      "mediaUrl": "/assets/projects/oldtimesailors.webp",
+      "mediaUrl": "/assets/projects/project-placeholder.webp",
       "hasCode": false,
-      "hasWebsite": true,
-      "websiteUrl": "https://oldtimesailors.com/"
+      "hasWebsite": false
     },
     {
       "id": "portfolio",
